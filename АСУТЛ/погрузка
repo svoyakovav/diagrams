@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-16T19:11:59.201Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="ruqAVOyey-eWARxYLidy" version="15.9.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-16T19:12:29.897Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="9KJ-kqzfmEEv0ZpNgNHt" version="15.9.6" type="github" pages="2">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -20,7 +20,7 @@
           <mxGeometry x="220" y="560" width="770" height="260" as="geometry" />
         </mxCell>
         <mxCell id="6a42o_in29oySk5NYEIv-14" value="OEBS" style="swimlane;startSize=40;" vertex="1" parent="1">
-          <mxGeometry x="240" y="80" width="230" height="940" as="geometry" />
+          <mxGeometry x="240" y="80" width="230" height="1040" as="geometry" />
         </mxCell>
         <mxCell id="6a42o_in29oySk5NYEIv-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6a42o_in29oySk5NYEIv-14" source="6a42o_in29oySk5NYEIv-17" target="6a42o_in29oySk5NYEIv-19">
           <mxGeometry relative="1" as="geometry" />
@@ -32,7 +32,7 @@
           <mxGeometry x="70" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mwFZNdbdDXI2iwJRT7Nc-1" value=" АСУТЛ" style="swimlane;startSize=40;" parent="1" vertex="1">
-          <mxGeometry x="470" y="80" width="270" height="940" as="geometry" />
+          <mxGeometry x="470" y="80" width="270" height="1040" as="geometry" />
         </mxCell>
         <mxCell id="6a42o_in29oySk5NYEIv-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontColor=#00000A;startSize=10;endSize=9;" edge="1" parent="mwFZNdbdDXI2iwJRT7Nc-1" source="6a42o_in29oySk5NYEIv-21" target="6a42o_in29oySk5NYEIv-40">
           <mxGeometry relative="1" as="geometry" />
@@ -125,7 +125,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mwFZNdbdDXI2iwJRT7Nc-3" value="&#xa;APEX приложение погрузки&#xa;" style="swimlane;startSize=40;" parent="1" vertex="1">
-          <mxGeometry x="740" y="80" width="250" height="940" as="geometry" />
+          <mxGeometry x="740" y="80" width="250" height="1040" as="geometry" />
         </mxCell>
         <mxCell id="6a42o_in29oySk5NYEIv-69" value="Вагон на фронту погрузки Цеха" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontColor=#00000A;" vertex="1" parent="mwFZNdbdDXI2iwJRT7Nc-3">
           <mxGeometry x="20" y="500" width="120" height="40" as="geometry" />
