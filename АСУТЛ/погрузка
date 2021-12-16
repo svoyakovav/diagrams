@@ -1,17 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2021-12-16T18:00:07.041Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="uv_GsUpj5tT23G49xt7c" version="15.9.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-16T18:06:28.899Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="jFvec-N9CeshaqvzQvob" version="15.9.6" type="github" pages="2">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="dNxyNK7c78bLwvsdeMH5-19" value="Pool" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" parent="1" vertex="1">
-          <mxGeometry x="200" y="120" width="780" height="700" as="geometry" />
-        </mxCell>
-        <mxCell id="dNxyNK7c78bLwvsdeMH5-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" parent="dNxyNK7c78bLwvsdeMH5-19" source="dNxyNK7c78bLwvsdeMH5-26" target="dNxyNK7c78bLwvsdeMH5-36" edge="1">
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" parent="1" source="dNxyNK7c78bLwvsdeMH5-26" target="dNxyNK7c78bLwvsdeMH5-36" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="180" y="340" />
-              <mxPoint x="400" y="340" />
+              <mxPoint x="380" y="460" />
+              <mxPoint x="600" y="460" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -20,8 +17,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dNxyNK7c78bLwvsdeMH5-20" value="Экономист сбыта" style="swimlane;html=1;startSize=20;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
-          <mxGeometry x="20" width="760" height="250" as="geometry" />
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-20" value="Экономист сбыта" style="swimlane;html=1;startSize=20;horizontal=0;" parent="1" vertex="1">
+          <mxGeometry x="220" y="120" width="680" height="250" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="dNxyNK7c78bLwvsdeMH5-20" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -29,28 +26,37 @@
             <mxPoint x="120" y="60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dNxyNK7c78bLwvsdeMH5-21" value="ЖД Диспетчер" style="swimlane;html=1;startSize=20;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
-          <mxGeometry x="20" y="250" width="760" height="190" as="geometry" />
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-21" value="ЖД Диспетчер" style="swimlane;html=1;startSize=20;horizontal=0;" parent="1" vertex="1">
+          <mxGeometry x="220" y="370" width="680" height="190" as="geometry" />
         </mxCell>
         <UserObject label="" link="data:page/id,-8NpU-MRw5bBnXkdW-87" linkTarget="_blank" id="dNxyNK7c78bLwvsdeMH5-26">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
             <mxGeometry x="120" y="30" width="80" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="dNxyNK7c78bLwvsdeMH5-22" value="Lane 3" style="swimlane;html=1;startSize=20;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
-          <mxGeometry x="20" y="440" width="760" height="260" as="geometry" />
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-22" value="Цех погрузки" style="swimlane;html=1;startSize=20;horizontal=0;" parent="1" vertex="1">
+          <mxGeometry x="220" y="560" width="680" height="260" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-36" value="" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
           <mxGeometry x="360" y="30" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6a42o_in29oySk5NYEIv-14" value="OEBS" style="swimlane;startSize=40;" vertex="1" parent="1">
-          <mxGeometry x="240" y="80" width="200" height="610" as="geometry" />
+          <mxGeometry x="240" y="80" width="200" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="6a42o_in29oySk5NYEIv-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6a42o_in29oySk5NYEIv-14" source="6a42o_in29oySk5NYEIv-17" target="6a42o_in29oySk5NYEIv-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6a42o_in29oySk5NYEIv-17" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="6a42o_in29oySk5NYEIv-14">
+          <mxGeometry x="10" y="60" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6a42o_in29oySk5NYEIv-19" value="Размещение заказа в OEBS" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="6a42o_in29oySk5NYEIv-14">
+          <mxGeometry x="70" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mwFZNdbdDXI2iwJRT7Nc-1" value=" АСУТЛ" style="swimlane;startSize=40;" parent="1" vertex="1">
-          <mxGeometry x="440" y="80" width="210" height="610" as="geometry" />
+          <mxGeometry x="440" y="80" width="210" height="740" as="geometry" />
         </mxCell>
         <mxCell id="mwFZNdbdDXI2iwJRT7Nc-3" value=" &#xa;приложение погрузки вагонов&#xa; или контейнеров APEX&#xa;" style="swimlane;startSize=40;" parent="1" vertex="1">
-          <mxGeometry x="650" y="80" width="330" height="610" as="geometry" />
+          <mxGeometry x="650" y="80" width="250" height="740" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
