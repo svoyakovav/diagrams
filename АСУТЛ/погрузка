@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-16T19:00:43.316Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="dAzYdvhSvWhTFPmwei5a" version="15.9.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-16T19:11:59.201Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="ruqAVOyey-eWARxYLidy" version="15.9.6" type="github" pages="2">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -161,17 +161,71 @@
             <mxPoint x="580" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6a42o_in29oySk5NYEIv-76" value="&lt;font color=&quot;#00000a&quot; style=&quot;font-size: 11px&quot;&gt;Создание операции погрузка в АСУТЛ&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 10) ; font-weight: 700 ; background-color: rgb(255 , 255 , 255)&quot;&gt;JOB 532 ASUTL_XI_KUAZOT&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#00000a&quot; style=&quot;font-size: 11px&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#99FF99;textOpacity=80;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="510" y="830" width="150" height="70" as="geometry" />
+        <mxCell id="6a42o_in29oySk5NYEIv-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=8;fontColor=#00000A;startSize=10;endSize=9;" edge="1" parent="1" source="6a42o_in29oySk5NYEIv-77" target="6a42o_in29oySk5NYEIv-76">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6a42o_in29oySk5NYEIv-77" value="&lt;font color=&quot;#00000a&quot; style=&quot;font-size: 8px;&quot;&gt;Создание отгрузочной партии в OEBS&lt;br style=&quot;font-size: 8px;&quot;&gt;Канкарент оракл погрузка&lt;br style=&quot;font-size: 8px;&quot;&gt;XXT_ASUTL_LOADINGTRANSPORT_PRC&lt;br style=&quot;font-size: 8px;&quot;&gt;&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#99FF99;textOpacity=80;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="250" y="930" width="210" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="6a42o_in29oySk5NYEIv-78" value="Автомат ASUTL" style="swimlane;horizontal=0;fontSize=11;fontColor=#00000A;startSize=20;" vertex="1" parent="1">
-          <mxGeometry x="220" y="820" width="770" height="100" as="geometry" />
+          <mxGeometry x="250" y="830" width="210" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6a42o_in29oySk5NYEIv-79" value="Автомат OEBS" style="swimlane;horizontal=0;fontSize=11;fontColor=#00000A;startSize=20;" vertex="1" parent="1">
-          <mxGeometry x="220" y="920" width="770" height="100" as="geometry" />
+          <mxGeometry x="220" y="820" width="770" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="6a42o_in29oySk5NYEIv-81" value="" style="endArrow=classic;html=1;rounded=0;fontSize=8;fontColor=#00000A;startSize=10;endSize=9;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6a42o_in29oySk5NYEIv-73" target="6a42o_in29oySk5NYEIv-77">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="860" as="sourcePoint" />
+            <mxPoint x="760" y="810" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="930" y="870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6a42o_in29oySk5NYEIv-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=8;fontColor=#00000A;startSize=10;endSize=9;" edge="1" parent="1" source="6a42o_in29oySk5NYEIv-76" target="6a42o_in29oySk5NYEIv-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6a42o_in29oySk5NYEIv-76" value="&lt;font color=&quot;#00000a&quot; style=&quot;font-size: 11px&quot;&gt;Создание операции погрузка&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 10) ; font-weight: 700 ; background-color: rgb(255 , 255 , 255)&quot;&gt;JOB 532 ASUTL_XI_KUAZOT&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#00000a&quot; style=&quot;font-size: 11px&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#99FF99;textOpacity=80;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="510" y="930" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6a42o_in29oySk5NYEIv-78" value="Автомат ASUTL" style="swimlane;horizontal=0;fontSize=11;fontColor=#00000A;startSize=20;" vertex="1" parent="1">
+          <mxGeometry x="220" y="920" width="770" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="6a42o_in29oySk5NYEIv-93" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontColor=#0000FF;" vertex="1" parent="6a42o_in29oySk5NYEIv-78">
+          <mxGeometry x="530" y="60" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6a42o_in29oySk5NYEIv-102" value="&lt;font color=&quot;#00000a&quot; style=&quot;font-size: 11px&quot;&gt;Создание операции готовность к уборке&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 10) ; font-weight: 700 ; background-color: rgb(255 , 255 , 255)&quot;&gt;JOB 532 ASUTL_XI_KUAZOT&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#00000a&quot; style=&quot;font-size: 11px&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#99FF99;textOpacity=80;fontSize=11;" vertex="1" parent="6a42o_in29oySk5NYEIv-78">
+          <mxGeometry x="290" y="110" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6a42o_in29oySk5NYEIv-84" value="Завершение погрузки" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontColor=#00000A;" vertex="1" parent="1">
+          <mxGeometry x="750" y="930" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6a42o_in29oySk5NYEIv-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=8;fontColor=#00000A;startSize=10;endSize=9;dashed=1;" edge="1" parent="1" source="6a42o_in29oySk5NYEIv-96" target="6a42o_in29oySk5NYEIv-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6a42o_in29oySk5NYEIv-104" value="Взаимодействие АСУ-АСУ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontColor=#00000A;" vertex="1" connectable="0" parent="6a42o_in29oySk5NYEIv-103">
+          <mxGeometry x="0.0635" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6a42o_in29oySk5NYEIv-96" value="&lt;font color=&quot;#00000a&quot;&gt;готовность к уборке&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#99FF99;textOpacity=80;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="870" y="970" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6a42o_in29oySk5NYEIv-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontColor=#00000A;startSize=10;endSize=9;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="6a42o_in29oySk5NYEIv-93" target="6a42o_in29oySk5NYEIv-96">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6a42o_in29oySk5NYEIv-95" value="Ручной ввод" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#00000A;" vertex="1" connectable="0" parent="6a42o_in29oySk5NYEIv-94">
+          <mxGeometry x="-0.1171" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6a42o_in29oySk5NYEIv-99" value="" style="endArrow=classic;html=1;rounded=0;fontSize=8;fontColor=#00000A;startSize=10;endSize=9;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6a42o_in29oySk5NYEIv-84" target="6a42o_in29oySk5NYEIv-96">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="960" as="sourcePoint" />
+            <mxPoint x="930" y="950" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="920" y="950" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
