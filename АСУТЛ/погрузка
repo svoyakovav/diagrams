@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-16T19:31:26.471Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="7PD2PaSTVGKmNjogdAX8" version="15.9.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-16T19:31:43.366Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="9aSEN4aNCmE4bX4PrhOk" version="15.9.6" type="github" pages="2">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Блок схема Операции погрузки">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,7 +31,7 @@
         <mxCell id="6a42o_in29oySk5NYEIv-19" value="Размещение заказа в OEBS" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="6a42o_in29oySk5NYEIv-14" vertex="1">
           <mxGeometry x="70" y="50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mwFZNdbdDXI2iwJRT7Nc-1" value=" АСУТЛ" style="swimlane;startSize=40;strokeColor=#0000FF;" parent="1" vertex="1">
+        <mxCell id="mwFZNdbdDXI2iwJRT7Nc-1" value=" АСУТЛ" style="swimlane;startSize=40;strokeColor=#00000A;" parent="1" vertex="1">
           <mxGeometry x="470" y="80" width="270" height="980" as="geometry" />
         </mxCell>
         <mxCell id="6a42o_in29oySk5NYEIv-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontColor=#00000A;startSize=10;endSize=9;" parent="mwFZNdbdDXI2iwJRT7Nc-1" source="6a42o_in29oySk5NYEIv-21" target="6a42o_in29oySk5NYEIv-40" edge="1">
