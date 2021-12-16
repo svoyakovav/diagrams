@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-16T19:32:45.863Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="OF0WxSjZpVfuVik5kTeL" version="15.9.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-16T19:33:12.137Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="73APb-8rCMdf2onTU9u_" version="15.9.6" type="github" pages="2">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Блок схема Операции погрузки">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -174,13 +174,13 @@
             <mxPoint x="12" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6a42o_in29oySk5NYEIv-99" value="" style="endArrow=classic;html=1;rounded=0;fontSize=8;fontColor=#00000A;startSize=10;endSize=9;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="mwFZNdbdDXI2iwJRT7Nc-3" source="6a42o_in29oySk5NYEIv-84" target="6a42o_in29oySk5NYEIv-96" edge="1">
+        <mxCell id="6a42o_in29oySk5NYEIv-99" value="" style="endArrow=classic;html=1;rounded=0;fontSize=8;fontColor=#00000A;startSize=10;endSize=9;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="mwFZNdbdDXI2iwJRT7Nc-3" source="6a42o_in29oySk5NYEIv-84" target="6a42o_in29oySk5NYEIv-96" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="110" y="880" as="sourcePoint" />
             <mxPoint x="190" y="870" as="targetPoint" />
             <Array as="points">
               <mxPoint x="175" y="620" />
-              <mxPoint x="50" y="620" />
+              <mxPoint x="60" y="620" />
             </Array>
           </mxGeometry>
         </mxCell>
