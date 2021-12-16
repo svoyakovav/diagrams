@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-16T20:29:07.979Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="twJ9kMoms2GAletfL17J" version="15.9.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-16T20:33:26.704Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="Yp4fDJdEHLUhEQwg5Y6S" version="15.9.6" type="github" pages="2">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Блок схема Операции погрузки">
-    <mxGraphModel dx="981" dy="1695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="2065" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -320,6 +320,19 @@
         <mxCell id="tCKHSjCTQ6jLP-R1dzub-54" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontColor=#0000FF;" vertex="1" parent="tCKHSjCTQ6jLP-R1dzub-47">
           <mxGeometry x="840" y="95" width="20" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="tCKHSjCTQ6jLP-R1dzub-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=10;fontColor=#0000FF;strokeColor=#00000A;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="tCKHSjCTQ6jLP-R1dzub-47" source="tCKHSjCTQ6jLP-R1dzub-57" target="tCKHSjCTQ6jLP-R1dzub-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="230" />
+              <mxPoint x="345" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tCKHSjCTQ6jLP-R1dzub-63" value="обмен АСУ-АСУ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#0000FF;" vertex="1" connectable="0" parent="tCKHSjCTQ6jLP-R1dzub-62">
+          <mxGeometry x="-0.0804" y="-2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="tCKHSjCTQ6jLP-R1dzub-57" value="&lt;font color=&quot;#00000a&quot; style=&quot;font-size: 11px&quot;&gt;Обновление данных взвешивания&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#99FF99;textOpacity=80;fontSize=11;" vertex="1" parent="tCKHSjCTQ6jLP-R1dzub-47">
           <mxGeometry x="940" y="160" width="120" height="40" as="geometry" />
         </mxCell>
@@ -337,6 +350,9 @@
             <mxPoint x="34" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="tCKHSjCTQ6jLP-R1dzub-61" value="&lt;font color=&quot;#00000a&quot; style=&quot;font-size: 11px&quot;&gt;Обновление данных операции взвешивания, обновление операции погрузки&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#99FF99;textOpacity=80;fontSize=11;" vertex="1" parent="tCKHSjCTQ6jLP-R1dzub-47">
+          <mxGeometry x="270" y="140" width="150" height="70" as="geometry" />
+        </mxCell>
         <mxCell id="tCKHSjCTQ6jLP-R1dzub-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;fontSize=10;strokeColor=#0000FF;" edge="1" parent="1" source="tCKHSjCTQ6jLP-R1dzub-40" target="tCKHSjCTQ6jLP-R1dzub-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -344,6 +360,9 @@
           <mxGeometry x="-0.1495" y="-1" relative="1" as="geometry">
             <mxPoint x="1" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="tCKHSjCTQ6jLP-R1dzub-60" value="Вагоны в приложении взвештвания" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontColor=#00000A;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="370" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
