@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-16T20:22:09.448Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="tdS35Ztzn5MJGqyZOPR1" version="15.9.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-16T20:29:07.979Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="twJ9kMoms2GAletfL17J" version="15.9.6" type="github" pages="2">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Блок схема Операции погрузки">
-    <mxGraphModel dx="1673" dy="2065" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="1695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -257,7 +257,7 @@
         <mxCell id="6a42o_in29oySk5NYEIv-102" value="&lt;font color=&quot;#00000a&quot; style=&quot;font-size: 11px&quot;&gt;Создание операции готовность к уборке&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 10) ; font-weight: 700 ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#00000a&quot; style=&quot;font-size: 11px&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#99FF99;textOpacity=80;fontSize=11;" parent="6a42o_in29oySk5NYEIv-78" vertex="1">
           <mxGeometry x="290" y="80" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6a42o_in29oySk5NYEIv-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=8;fontColor=#00000A;startSize=10;endSize=9;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="6a42o_in29oySk5NYEIv-96" target="6a42o_in29oySk5NYEIv-102" edge="1">
+        <mxCell id="6a42o_in29oySk5NYEIv-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=8;fontColor=#00000A;startSize=10;endSize=9;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#0000FF;" parent="1" source="6a42o_in29oySk5NYEIv-96" target="6a42o_in29oySk5NYEIv-102" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="730" y="769" as="sourcePoint" />
           </mxGeometry>
@@ -279,7 +279,7 @@
         <mxCell id="tCKHSjCTQ6jLP-R1dzub-23" value="&#xa;APEX приложение взвешивания&#xa;" style="swimlane;startSize=40;strokeColor=#00000A;" vertex="1" parent="1">
           <mxGeometry x="1050" y="-130" width="240" height="1220" as="geometry" />
         </mxCell>
-        <mxCell id="6a42o_in29oySk5NYEIv-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontColor=#00000A;startSize=10;endSize=9;fillColor=#d5e8d4;strokeColor=#82b366;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1" target="6a42o_in29oySk5NYEIv-69" source="6a42o_in29oySk5NYEIv-58">
+        <mxCell id="6a42o_in29oySk5NYEIv-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontColor=#00000A;startSize=10;endSize=9;fillColor=#d5e8d4;strokeColor=#0000FF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1" target="6a42o_in29oySk5NYEIv-69" source="6a42o_in29oySk5NYEIv-58">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="630" y="370" as="sourcePoint" />
             <mxPoint x="760" y="419" as="targetPoint" />
@@ -296,6 +296,54 @@
         </mxCell>
         <mxCell id="tCKHSjCTQ6jLP-R1dzub-47" value="оператор ЖД весовой" style="swimlane;horizontal=0;fontSize=10;startSize=20;" vertex="1" parent="1">
           <mxGeometry x="220" y="350" width="1070" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="tCKHSjCTQ6jLP-R1dzub-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=10;fontColor=#0000FF;strokeColor=#00000A;" edge="1" parent="tCKHSjCTQ6jLP-R1dzub-47" source="tCKHSjCTQ6jLP-R1dzub-48" target="tCKHSjCTQ6jLP-R1dzub-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tCKHSjCTQ6jLP-R1dzub-48" value="Вагоны в приложении взвештвания" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontColor=#00000A;" vertex="1" parent="tCKHSjCTQ6jLP-R1dzub-47">
+          <mxGeometry x="850" y="10" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tCKHSjCTQ6jLP-R1dzub-51" value="&lt;font color=&quot;#00000a&quot; style=&quot;font-size: 11px&quot;&gt;Получение данных с весовой&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#99FF99;textOpacity=80;fontSize=11;" vertex="1" parent="tCKHSjCTQ6jLP-R1dzub-47">
+          <mxGeometry x="940" y="90" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tCKHSjCTQ6jLP-R1dzub-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontColor=#00000A;startSize=10;endSize=9;fillColor=#d5e8d4;strokeColor=#FF0000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="tCKHSjCTQ6jLP-R1dzub-47" source="tCKHSjCTQ6jLP-R1dzub-54" target="tCKHSjCTQ6jLP-R1dzub-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="900" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tCKHSjCTQ6jLP-R1dzub-53" value="Ручной ввод" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="tCKHSjCTQ6jLP-R1dzub-52">
+          <mxGeometry x="-0.2204" relative="1" as="geometry">
+            <mxPoint x="4" y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tCKHSjCTQ6jLP-R1dzub-54" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontColor=#0000FF;" vertex="1" parent="tCKHSjCTQ6jLP-R1dzub-47">
+          <mxGeometry x="840" y="95" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tCKHSjCTQ6jLP-R1dzub-57" value="&lt;font color=&quot;#00000a&quot; style=&quot;font-size: 11px&quot;&gt;Обновление данных взвешивания&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#99FF99;textOpacity=80;fontSize=11;" vertex="1" parent="tCKHSjCTQ6jLP-R1dzub-47">
+          <mxGeometry x="940" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tCKHSjCTQ6jLP-R1dzub-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontColor=#00000A;startSize=10;endSize=9;fillColor=#d5e8d4;strokeColor=#FF0000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="tCKHSjCTQ6jLP-R1dzub-47" source="tCKHSjCTQ6jLP-R1dzub-54" target="tCKHSjCTQ6jLP-R1dzub-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="180" />
+            </Array>
+            <mxPoint x="950" y="120" as="targetPoint" />
+            <mxPoint x="870" y="120" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tCKHSjCTQ6jLP-R1dzub-59" value="Ручной ввод" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="tCKHSjCTQ6jLP-R1dzub-58">
+          <mxGeometry x="-0.2204" relative="1" as="geometry">
+            <mxPoint x="34" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tCKHSjCTQ6jLP-R1dzub-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;fontSize=10;strokeColor=#0000FF;" edge="1" parent="1" source="tCKHSjCTQ6jLP-R1dzub-40" target="tCKHSjCTQ6jLP-R1dzub-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tCKHSjCTQ6jLP-R1dzub-50" value="обмен АСУ-АСУ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#0000FF;" vertex="1" connectable="0" parent="tCKHSjCTQ6jLP-R1dzub-49">
+          <mxGeometry x="-0.1495" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
