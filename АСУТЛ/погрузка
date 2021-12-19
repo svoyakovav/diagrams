@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-19T19:31:56.030Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="4gnSCMWa1eSZoi3xYdG5" version="15.9.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-19T19:32:17.764Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="4WpTWA3UNb0I-Wuf1Zxz" version="15.9.6" type="github" pages="2">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Блок схема Операция погрузки">
     <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -472,7 +472,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="SxP0oQxpTivLZXLG4QlZ-47" value="&lt;span style=&quot;color: rgb(0 , 0 , 255) ; text-align: left&quot;&gt;поле Blanket_Header_id&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#FF0000;" vertex="1" parent="SxP0oQxpTivLZXLG4QlZ-10">
-          <mxGeometry x="561" y="358" width="129" height="50" as="geometry" />
+          <mxGeometry x="561" y="335" width="129" height="50" as="geometry" />
         </mxCell>
         <mxCell id="SxP0oQxpTivLZXLG4QlZ-13" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;xxt.xxpha_sb057_om_oe_order_tl&lt;/span&gt;&#xa;&#xa;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontSize=14;" vertex="1" parent="uhmy9MoJ0eKTC7CiZXFI-1">
           <mxGeometry x="1860" y="560" width="230" height="90" as="geometry" />
