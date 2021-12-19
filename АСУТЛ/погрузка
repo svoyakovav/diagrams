@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-19T19:36:09.257Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="amoU7vZhsZAuImNWfMXl" version="15.9.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-19T19:37:03.561Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="SY4diRJ9kN2Wba3K83EC" version="15.9.6" type="github" pages="2">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Блок схема Операция погрузки">
     <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -408,7 +408,7 @@
         <mxCell id="SxP0oQxpTivLZXLG4QlZ-4" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;xxt.xxpha_sb057_om_oe_order_tl&lt;/span&gt;&#xa;&#xa;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontSize=14;" vertex="1" parent="SxP0oQxpTivLZXLG4QlZ-1">
           <mxGeometry x="130" y="130" width="230" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="SxP0oQxpTivLZXLG4QlZ-9" value="&lt;span&gt;Вставка данных по заказам в таблицу&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="SxP0oQxpTivLZXLG4QlZ-1">
+        <mxCell id="SxP0oQxpTivLZXLG4QlZ-9" value="&lt;span&gt;Вставка данных по заказам в таблицу&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;fontSize=14;" vertex="1" parent="SxP0oQxpTivLZXLG4QlZ-1">
           <mxGeometry x="250" y="100" width="260" height="20" as="geometry" />
         </mxCell>
         <mxCell id="SxP0oQxpTivLZXLG4QlZ-52" value="данные для JOB 693" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;fontSize=14;" vertex="1" parent="SxP0oQxpTivLZXLG4QlZ-1">
