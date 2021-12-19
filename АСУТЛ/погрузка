@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-19T19:38:11.069Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="BwU2ecHbuIuVFIwvr0qh" version="15.9.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-19T19:40:45.947Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="eLrIsLXTqRipbss-J_wq" version="15.9.6" type="github" pages="2">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Блок схема Операция погрузки">
     <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -53,9 +53,11 @@
         <mxCell id="6a42o_in29oySk5NYEIv-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontColor=#00000A;startSize=10;endSize=9;" parent="mwFZNdbdDXI2iwJRT7Nc-1" source="6a42o_in29oySk5NYEIv-21" target="6a42o_in29oySk5NYEIv-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6a42o_in29oySk5NYEIv-21" value="Создание заказа в АСУТЛ из OEBS" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="mwFZNdbdDXI2iwJRT7Nc-1" vertex="1">
-          <mxGeometry x="130" y="49" width="110" height="60" as="geometry" />
-        </mxCell>
+        <UserObject label="Создание заказа в АСУТЛ из OEBS" link="data:page/id,-8NpU-MRw5bBnXkdW-87" id="6a42o_in29oySk5NYEIv-21">
+          <mxCell style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="mwFZNdbdDXI2iwJRT7Nc-1" vertex="1">
+            <mxGeometry x="130" y="49" width="110" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="6a42o_in29oySk5NYEIv-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontColor=#00000A;startSize=10;endSize=9;fillColor=#d5e8d4;strokeColor=#FF0000;" parent="mwFZNdbdDXI2iwJRT7Nc-1" source="6a42o_in29oySk5NYEIv-39" target="6a42o_in29oySk5NYEIv-40" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
