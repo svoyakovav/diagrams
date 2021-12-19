@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-19T19:37:03.561Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="SY4diRJ9kN2Wba3K83EC" version="15.9.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-19T19:37:49.956Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="8_6KAcvBHbNYTdQYod_4" version="15.9.6" type="github" pages="2">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Блок схема Операция погрузки">
     <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -370,9 +370,6 @@
           <mxGeometry x="-0.1495" y="-1" relative="1" as="geometry">
             <mxPoint x="1" as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="_jmYiltgM8HXZ67dOEME-1" value="&lt;h1&gt;Heading&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="630" y="-10" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="_jmYiltgM8HXZ67dOEME-2" value="&lt;h1&gt;Общая блок схема создания заказа, погрузки и взвешивания.&lt;/h1&gt;&lt;h1&gt;&lt;font style=&quot;font-weight: normal ; font-size: 18px&quot;&gt;Операции OEBS, АСУТЛ и приложениях APEX погрузки и взвешивания&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="230" y="-280" width="1050" height="100" as="geometry" />
