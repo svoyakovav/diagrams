@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-19T19:32:17.764Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="4WpTWA3UNb0I-Wuf1Zxz" version="15.9.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-19T19:36:09.257Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="amoU7vZhsZAuImNWfMXl" version="15.9.6" type="github" pages="2">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Блок схема Операция погрузки">
     <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -411,8 +411,11 @@
         <mxCell id="SxP0oQxpTivLZXLG4QlZ-9" value="&lt;span&gt;Вставка данных по заказам в таблицу&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="SxP0oQxpTivLZXLG4QlZ-1">
           <mxGeometry x="250" y="100" width="260" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="SxP0oQxpTivLZXLG4QlZ-52" value="данные для JOB 693" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;fontSize=14;" vertex="1" parent="SxP0oQxpTivLZXLG4QlZ-1">
+          <mxGeometry x="380" y="150" width="150" height="20" as="geometry" />
+        </mxCell>
         <mxCell id="SxP0oQxpTivLZXLG4QlZ-10" value="OEBS" style="swimlane;horizontal=0;fontSize=14;" vertex="1" parent="uhmy9MoJ0eKTC7CiZXFI-1">
-          <mxGeometry x="840" y="330" width="760" height="870" as="geometry" />
+          <mxGeometry x="840" y="330" width="760" height="840" as="geometry" />
         </mxCell>
         <mxCell id="SxP0oQxpTivLZXLG4QlZ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="SxP0oQxpTivLZXLG4QlZ-10" source="SxP0oQxpTivLZXLG4QlZ-12" target="SxP0oQxpTivLZXLG4QlZ-24">
           <mxGeometry relative="1" as="geometry">
@@ -500,6 +503,15 @@
         </mxCell>
         <mxCell id="SxP0oQxpTivLZXLG4QlZ-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontSize=14;fontColor=#FF0000;strokeColor=#FF0000;" edge="1" parent="uhmy9MoJ0eKTC7CiZXFI-1" source="SxP0oQxpTivLZXLG4QlZ-47" target="SxP0oQxpTivLZXLG4QlZ-21">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SxP0oQxpTivLZXLG4QlZ-51" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;fontSize=14;fontColor=#0000FF;strokeColor=#FF0000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.868;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="uhmy9MoJ0eKTC7CiZXFI-1" source="SxP0oQxpTivLZXLG4QlZ-4" target="SxP0oQxpTivLZXLG4QlZ-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1290" y="280" as="sourcePoint" />
+            <mxPoint x="1340" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1267" y="255" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
