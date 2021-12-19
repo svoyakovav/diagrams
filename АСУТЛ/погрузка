@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-19T18:21:49.353Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="BUfPKW20-F4h1Seq8NUE" version="15.9.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-19T18:28:47.322Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="WUd-CFo7h6k8kDFBSJIw" version="15.9.6" type="github" pages="2">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Блок схема Операция погрузки">
     <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -390,6 +390,18 @@
         </mxCell>
         <mxCell id="1qnrDMmpGtiQW3AdgZHw-0" value="&lt;h1&gt;&lt;span&gt;Передача заказов из OEBS в АСУТЛ&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="uhmy9MoJ0eKTC7CiZXFI-1">
           <mxGeometry x="850" y="20" width="710" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SxP0oQxpTivLZXLG4QlZ-1" value="OEBS" style="swimlane;horizontal=0;fontSize=14;" vertex="1" parent="uhmy9MoJ0eKTC7CiZXFI-1">
+          <mxGeometry x="840" y="80" width="760" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="SxP0oQxpTivLZXLG4QlZ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="SxP0oQxpTivLZXLG4QlZ-1" source="SxP0oQxpTivLZXLG4QlZ-0" target="SxP0oQxpTivLZXLG4QlZ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SxP0oQxpTivLZXLG4QlZ-0" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Выполнение процедуры в OEBS&lt;br&gt;apps.xxarz_orders_for_sale_in_asutl&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=18;" vertex="1" parent="SxP0oQxpTivLZXLG4QlZ-1">
+          <mxGeometry x="80" y="10" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SxP0oQxpTivLZXLG4QlZ-2" value="Вставка данных по заказам в таблицу&lt;br&gt;xxt.xxpha_sb057_om_oe_order_tl" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="SxP0oQxpTivLZXLG4QlZ-1">
+          <mxGeometry x="100" y="90" width="270" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
