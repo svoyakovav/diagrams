@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-20T11:17:38.099Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="2DeO-dLhFmYh6fbVuA6q" version="15.9.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-20T11:18:59.037Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="WEPcilox1khM7jtde6Cm" version="15.9.6" type="github" pages="2">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Блок схема Операция погрузки">
     <mxGraphModel dx="864" dy="1607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -380,7 +380,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-8NpU-MRw5bBnXkdW-87" name="создание заказа в АСУТЛ">
-    <mxGraphModel dx="407" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="189" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="uhmy9MoJ0eKTC7CiZXFI-0" />
         <mxCell id="uhmy9MoJ0eKTC7CiZXFI-1" parent="uhmy9MoJ0eKTC7CiZXFI-0" />
@@ -470,13 +470,13 @@
           <mxGeometry y="400" width="340" height="140" as="geometry" />
         </mxCell>
         <mxCell id="SxP0oQxpTivLZXLG4QlZ-28" value="Загрузка заказов&#xa;процедура&#xa;Load orders" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=70;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=14;fontColor=#0000FF;" parent="SxP0oQxpTivLZXLG4QlZ-10" vertex="1">
-          <mxGeometry x="401" y="100" width="319" height="280" as="geometry" />
+          <mxGeometry x="401" y="100" width="319" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="SxP0oQxpTivLZXLG4QlZ-29" value="чтение из таблицы&#xa;  asutl.S$ERP_SB057_OEBS_ORDER_TL&#xa;  ссылка на &#xa;XXT.XXPHA_SB057_OM_OE_ORDER_TL&#xa;вставка в таблицу&#xa;&#xa; " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=14;fontColor=#0000FF;" parent="SxP0oQxpTivLZXLG4QlZ-28" vertex="1">
-          <mxGeometry y="70" width="319" height="100" as="geometry" />
+        <mxCell id="SxP0oQxpTivLZXLG4QlZ-29" value="чтение из таблицы&#xa;  asutl.S$ERP_SB057_OEBS_ORDER_TL&#xa;  ссылка на &#xa;XXT.XXPHA_SB057_OM_OE_ORDER_TL&#xa;&#xa;вставка в таблицу&#xa;&#xa; " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=14;fontColor=#0000FF;" parent="SxP0oQxpTivLZXLG4QlZ-28" vertex="1">
+          <mxGeometry y="70" width="319" height="110" as="geometry" />
         </mxCell>
         <mxCell id="T7z1mIi2j9KnqbccF9dR-33" value="S$ERP_SB057_OM_OE_ORDER_TL&#xa;ссылка на &#xa;asutl_xi_kuazot.XXPHA_SB057_OM_OE_ORDER_TL" style="shape=table;startSize=50;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="SxP0oQxpTivLZXLG4QlZ-28">
-          <mxGeometry y="170" width="319" height="110" as="geometry" />
+          <mxGeometry y="180" width="319" height="110" as="geometry" />
         </mxCell>
         <mxCell id="T7z1mIi2j9KnqbccF9dR-34" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="T7z1mIi2j9KnqbccF9dR-33">
           <mxGeometry y="50" width="319" height="30" as="geometry" />
@@ -504,13 +504,13 @@
             <mxRectangle width="289" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SxP0oQxpTivLZXLG4QlZ-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=14;fontColor=#FF0000;strokeColor=#FF0000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="SxP0oQxpTivLZXLG4QlZ-10" source="T7z1mIi2j9KnqbccF9dR-34" target="T7z1mIi2j9KnqbccF9dR-41" edge="1">
+        <mxCell id="SxP0oQxpTivLZXLG4QlZ-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=14;fontColor=#FF0000;strokeColor=#FF0000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="SxP0oQxpTivLZXLG4QlZ-10" target="T7z1mIi2j9KnqbccF9dR-41" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="370" y="335" />
+              <mxPoint x="370" y="345" />
               <mxPoint x="370" y="455" />
             </Array>
-            <mxPoint x="401" y="404.9999999999998" as="sourcePoint" />
+            <mxPoint x="401" y="345" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SxP0oQxpTivLZXLG4QlZ-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=14;fontColor=#FF0000;strokeColor=#FF0000;" parent="SxP0oQxpTivLZXLG4QlZ-10" target="T7z1mIi2j9KnqbccF9dR-44" edge="1">
@@ -540,7 +540,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1240" y="694" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="1260" y="694" />
+              <mxPoint x="1240" y="700" />
+              <mxPoint x="1260" y="700" />
               <mxPoint x="1260" y="835" />
               <mxPoint x="1440" y="835" />
             </Array>
