@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-20T11:21:28.092Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="aq6b6YtcHlAHnaQJQtiV" version="15.9.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-20T11:25:58.769Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="8wi9emKHl_7BDk-LSUyL" version="15.9.6" type="github" pages="2">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Блок схема Операция погрузки">
     <mxGraphModel dx="864" dy="1607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -380,7 +380,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-8NpU-MRw5bBnXkdW-87" name="создание заказа в АСУТЛ">
-    <mxGraphModel dx="189" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="613" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="uhmy9MoJ0eKTC7CiZXFI-0" />
         <mxCell id="uhmy9MoJ0eKTC7CiZXFI-1" parent="uhmy9MoJ0eKTC7CiZXFI-0" />
@@ -411,7 +411,7 @@
           <mxGeometry x="380" y="150" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="SxP0oQxpTivLZXLG4QlZ-10" value="OEBS" style="swimlane;horizontal=0;fontSize=14;" parent="uhmy9MoJ0eKTC7CiZXFI-1" vertex="1">
-          <mxGeometry x="840" y="329" width="760" height="840" as="geometry" />
+          <mxGeometry x="840" y="329" width="760" height="771" as="geometry" />
         </mxCell>
         <mxCell id="SxP0oQxpTivLZXLG4QlZ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="SxP0oQxpTivLZXLG4QlZ-10" source="SxP0oQxpTivLZXLG4QlZ-12" target="SxP0oQxpTivLZXLG4QlZ-24" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -521,13 +521,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="SxP0oQxpTivLZXLG4QlZ-21" value="заказы в асутл&lt;br&gt;&lt;font color=&quot;#0000ff&quot;&gt;ERP_SALES_ORDERS_VW&lt;br&gt;&lt;/font&gt;&lt;br&gt;состоит из&lt;br&gt;&amp;nbsp;s$erp_sb057_om_oe_order_tl&lt;br&gt;ссылка на&amp;nbsp;&lt;br&gt;asutl_xi_kuazot.&lt;br&gt;XXPHA_SB057_OM_OE_ORDER_TL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=14;" parent="uhmy9MoJ0eKTC7CiZXFI-1" vertex="1">
-          <mxGeometry x="1320" y="960" width="240" height="200" as="geometry" />
+        <mxCell id="SxP0oQxpTivLZXLG4QlZ-21" value="заказы в асутл&lt;br&gt;&lt;font color=&quot;#0000ff&quot;&gt;ERP_SALES_ORDERS_VW&lt;br&gt;&lt;/font&gt;&lt;br&gt;состоит из&lt;br&gt;&amp;nbsp;s$erp_sb057_om_oe_order_tl&lt;br&gt;ссылка на&amp;nbsp;&lt;br&gt;asutl_xi_kuazot.&lt;br&gt;XXPHA_SB057_OM_OE_ORDER_TL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=14;" parent="SxP0oQxpTivLZXLG4QlZ-10" vertex="1">
+          <mxGeometry x="480" y="551" width="240" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="SxP0oQxpTivLZXLG4QlZ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.008;entryY=0.35;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;fontColor=#FF0000;dashed=1;strokeColor=#FF0000;exitX=0.465;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="uhmy9MoJ0eKTC7CiZXFI-1" source="SxP0oQxpTivLZXLG4QlZ-27" target="SxP0oQxpTivLZXLG4QlZ-21" edge="1">
+        <mxCell id="SxP0oQxpTivLZXLG4QlZ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.008;entryY=0.35;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;fontColor=#FF0000;dashed=1;strokeColor=#FF0000;exitX=0.465;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="SxP0oQxpTivLZXLG4QlZ-10" source="SxP0oQxpTivLZXLG4QlZ-27" target="SxP0oQxpTivLZXLG4QlZ-21" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1048" y="1030" />
+              <mxPoint x="208" y="701" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -535,6 +535,9 @@
           <mxGeometry x="0.1892" y="1" relative="1" as="geometry">
             <mxPoint x="-86" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="T7z1mIi2j9KnqbccF9dR-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=11;fontColor=#0000FF;strokeColor=#FF0000;" edge="1" parent="SxP0oQxpTivLZXLG4QlZ-10" source="SxP0oQxpTivLZXLG4QlZ-28" target="SxP0oQxpTivLZXLG4QlZ-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SxP0oQxpTivLZXLG4QlZ-51" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;fontSize=14;fontColor=#0000FF;strokeColor=#FF0000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.868;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="uhmy9MoJ0eKTC7CiZXFI-1" source="SxP0oQxpTivLZXLG4QlZ-4" target="SxP0oQxpTivLZXLG4QlZ-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -544,9 +547,6 @@
               <mxPoint x="1267" y="255" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="T7z1mIi2j9KnqbccF9dR-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=11;fontColor=#0000FF;strokeColor=#FF0000;" edge="1" parent="uhmy9MoJ0eKTC7CiZXFI-1" source="SxP0oQxpTivLZXLG4QlZ-28" target="SxP0oQxpTivLZXLG4QlZ-21">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
